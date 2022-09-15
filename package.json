@@ -2,10 +2,6 @@
   "name": "{{ name }}",
   "private": true,
   "version": "0.0.1-alpha.1",
-  "engines": {
-    "node": "14.19.3"
-  },
-  "engineStrict": true,
   "scripts": {
     "dev": "vite",
     "dev:preview": "tsc && cross-env NODE_ENV=preview vite",
