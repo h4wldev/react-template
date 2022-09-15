@@ -1,0 +1,104 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "extends": [
+    "plugin:react/recommended",
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
+    "plugin:import/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier",
+    "airbnb"
+  ],
+  "rules": {
+    "linebreak-style": 0,
+    "import/prefer-default-export": 0,
+    "prettier/prettier": 0,
+    "import/extensions": 0,
+    "no-use-before-define": 0,
+    "import/no-unresolved": 0,
+    "no-shadow": 0,
+    "react/prop-types": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ],
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "no-param-reassign": 0,
+    "import/no-extraneous-dependencies": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "no-undef": 0,
+    "no-unused-vars": 0,
+    "import/order": 0,
+    "@typescript-eslint/ban-ts-comment": 0,
+    "@typescript-eslint/no-unused-vars": 0,
+    "react/react-in-jsx-scope": 0,
+    "no-console": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "no-return-await" : 0,
+    "max-len": 0,
+    "camelcase": 0,
+    "jsx-a11y/click-events-have-key-events" : 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "no-tabs": 0,
+    "no-mixed-spaces-and-tabs": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-props-no-spreading" : 0,
+    "no-bitwise": 0,
+    "no-return-assign": 0,
+    "consistent-return": 0,
+    "object-shorthand": 0,
+    "react-hooks/exhaustive-deps" : 0,
+    "no-redeclare" : 0,
+    "arrow-body-style" : 0,
+    "react/button-has-type" : 0,
+    "no-unused-expressions": 0,
+    "jsx-a11y/label-has-associated-control" : 0,
+    "jsx-a11y/anchor-is-valid" : 0,
+    "react/no-array-index-key" : 0,
+    "react/jsx-no-bind" : 0,
+    "default-case" : 0,
+    "react/jsx-boolean-value" : 0,
+    "no-irregular-whitespace" : 0,
+    "new-cap" : 0,
+    "no-nested-ternary" : 0,
+    "react/jsx-curly-brace-presence" : 0,
+    "quotes": 0,
+    "no-mixed-operators" : 0,
+    "func-names" : 0,
+    "jsx-a11y/control-has-associated-label" : 0,
+    "react/require-default-props" : 0,
+    "import/no-cycle": 0,
+    "no-multi-assign" : 0,
+    "react/destructuring-assignment" : 0,
+    "import/no-named-as-default-member" : 0
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  }
+}
